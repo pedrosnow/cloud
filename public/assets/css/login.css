@@ -1,0 +1,50 @@
+body{
+    background: url("../img/background3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#login{
+    width: 300px;
+}
+.inputs-corpo{
+    margin: 10px 0;
+}
+.inputs{
+    position: absolute;
+    width: 400px;
+}
+.input-botao{
+    background: rgb(173, 18, 18);
+    width: 100%;
+}
+#ajuda{
+    display: block;
+    margin: 10px 0;
+}
+#legenda{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#position-imagem{
+    float: left;
+    display: block;
+    
+}
+.imagem{
+    max-width: 13%;
+}
+#nome{
+    font-size: 1.1em;
+    margin: 7px 4px;
+    float: left;
+    display: block;
+}
+#corpo-logo{
+    margin: 10px 0;
+    overflow: hidden;
+}

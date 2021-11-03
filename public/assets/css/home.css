@@ -1,0 +1,446 @@
+
+/*     TAGS PADRÃO  */
+body{
+   
+    display: flex;   
+}
+header{
+    height: 100%;
+    width: 17%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 18%;
+}
+
+/*Header*/
+
+.soon{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.body-img{
+    max-width: 33%;
+    margin: 15px 0px 0 0;
+}
+.option{
+    width: 100%;
+    margin: 30px 0px;
+   
+}
+
+.option li{
+    background:rgb(6, 89, 122);
+    color: #fff;
+    border-radius: 2px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    text-decoration: none;
+    padding: 10px 10%;
+    list-style:none;
+    overflow: hidden;
+    margin: 0.9px 0px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option li:hover{
+    transition: 0.5s;
+    padding: 10px 0 10px 15%;
+    
+}
+.option li a{
+    font-size: 0.8em;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight: normal;
+    padding: 3px 0 0px 7px;
+}
+.option li span{
+    display: flex;
+    padding: 0;
+}
+.option li a:hover{
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+}
+
+/* MAIN */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+
+/* legenda */
+.cloud{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.7em;
+    color: rgb(56, 56, 56);
+    border: 1px solid #000;
+}
+
+.conteiner-main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.legend{
+    width: 98%;
+    padding: 17px 30px;
+    font-size: 1.6em;
+}
+.name{
+    font-size: 0.5em;
+    margin: 20px 0 2px 0;
+}
+.conteiner-file-folder{
+    margin: 0;
+    border-top: 1px solid rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+}
+/*     ARQUIVOS */
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+   
+}
+.file:hover{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*  Folder */  
+
+.folder{
+    padding: 10px;
+    width: 120px;
+    background: rgb(236, 236, 236);
+}
+
+.magin-conteiner{
+    border-radius: 20px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner-icon{
+    width: 98%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*  PHOTO */
+.size-img{
+    padding: 6px;
+    height: 75px;
+    width: 150px;
+}
+.magin-conteiner-photo{
+    border-radius: 20px;
+    background: rgb(236, 236, 236);
+    margin: 20px 10px;
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner-icon-photo{
+    width: 80%;
+    padding: 5px 0 0 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* PROPRIEDADE OPTIONS*/
+.options{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 17px;
+}
+.optins-link-photo{
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    border-radius: 6px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(243, 243, 243);
+    box-shadow: 1px 2px 10px rgb(209, 209, 209);
+    width: 110px;
+    font-weight: normal;
+    padding: 10px 30px 30px 20px;
+ }
+
+ .optins-link-photo a{
+    margin: 5px 0;
+    color: #000;
+    font-size: 0.8em;
+}
+.optins-link-photo a:hover{
+    text-decoration: none;
+}
+.options:hover > .word{
+    display: flex;
+}
+.word{
+    display: none;
+}
+.optins-link{
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    border-radius: 6px;
+    z-index: 1;
+    font-weight: normal;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(243, 243, 243);
+    box-shadow: 1px 2px 10px rgb(209, 209, 209);
+    width: 110px;
+    padding: 10px 30px 30px 20px;
+ }
+ .optins-link a{
+     margin: 5px 0;
+     color: #000;
+     font-size: 0.8em;
+     border-bottom:1px solid #fff;
+ }
+ .optins-link a:hover{
+     text-decoration: none;
+
+ }
+
+
+/* RADIO */
+
+.conteiner-icon input{
+    opacity: 1%;
+}
+.conteiner-icon-photo input{
+    opacity: 1%;
+}
+
+
+/* NOME DO ARQUIVO */
+.legenda{
+    font-size: 0.5em;
+}
+
+
+
+
+
+/* FOOTER PERFIL */
+
+.conteiner{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.conteiner-search{
+    width: 230px;
+    border-radius: 50px;
+}
+.icon-search{
+    position: absolute;
+    margin: 5.5px 10px;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #000;
+    outline: 0;
+} 
+.body-search{
+    padding: 0 10px;
+    width: 89%;
+    margin: 0 0 0 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.conteiner-alert{
+    padding: 2px 0 0 20px;
+}
+.icon-alert{
+    cursor: pointer;
+    list-style: none;
+    font-size: 23px;
+}
+.photo-perfil{
+    cursor: pointer;
+    margin: 0 30px;
+    max-width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+/* FOOTER Upload PASTA */
+#animate-size{
+    width: 30px;
+}
+.conteiner2{
+    margin: 80px 0;
+    display: flex;
+    align-items: right;
+    justify-content:right;
+    flex-direction: column;
+}
+.buttom{
+    cursor: pointer;
+    background:rgb(6, 89, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 5px 50px;
+    color: #fff;
+    width: 90%;
+}
+.buttom:hover{
+    transition: 0.3s;
+    text-decoration:none;
+    color: #fff;
+    background: rgb(7, 81, 110);
+}
+.icon-folder{
+    margin: 0 0 0 3px;
+}
+.icon{
+    margin: 0 4px 0 0;
+}
+.nav-folder{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.link-folder{
+    color: rgb(6, 89, 122);
+    margin: 3px 0;
+}
+.link-folder:hover{
+    text-decoration:none;
+}
+
+/*  Upload  */
+.upload-nome{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.Upload{
+    margin-top: 20px;
+    display: none;
+    height: 50px;
+}
+#legenda{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.progres{
+    width: 100%;
+    height: 100px;
+}
+.progress-bar{
+    background: rgb(4, 12, 15);
+    border-radius: 30px;
+    padding: 3px;
+}
+.legenda-Upload{
+    font-size: 1em;
+}
+
+
+/* LOADING  */
+
+.load{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#img-load{
+    height: 100px;
+    width: 200px;
+    background: url("../img/cloud2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+/*       TERMO DE USO            */
+
+.termo{
+    width: 100%;
+    height: 100%;
+    background:rgb(6, 89, 122);
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.informations-termo{
+    width: 40%;
+    height: 66%;
+    padding: 30px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+}
+.button-termo{
+    border: none;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 2px;
+}
+#siza-termo{
+    margin: 4% 0;
+    width: 30%;
+}
